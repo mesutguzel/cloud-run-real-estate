@@ -1,4 +1,4 @@
-from node:16.19 as build
+FROM node:16.19 as build
 WORKDIR /Projekt1
 COPY package*.json .
 RUN npm install
